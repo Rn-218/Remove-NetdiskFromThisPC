@@ -1,5 +1,7 @@
 # Remove-NetdiskFromThisPC
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 一个 PowerShell 脚本，用于清除“此电脑”(This PC) 中百度网盘、夸克网盘、123网盘、阿里云盘等网盘客户端留下的入口/虚拟盘图标（**不卸载软件**）。
 
 ## 背景
@@ -66,3 +68,10 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 - Windows 10 / 11
 - Windows PowerShell 5.1 或 PowerShell 7+
+
+## 许可
+
+本项目采用 [知识共享署名-非商业性使用 4.0 国际（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans) 许可协议开源。
+
+- 您可以自由共享（复制、分发）本作品，但必须**署名原作者**，且**不得用于商业目的**。
+- 完整法律文本见 [LICENSE](./LICENSE)；[许可摘要（人类可读）](https://creativecommons.org/licenses/by-nc/4.0/)。
