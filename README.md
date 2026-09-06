@@ -37,9 +37,6 @@
 
 # 深层清理（连同 Classes\CLSID 注册一起删除）并刷新资源管理器
 .\Remove-NetdiskFromThisPC.ps1 -RemoveClsid -RestartExplorer
-
-# 无人值守（跳过 y/n 确认）
-.\Remove-NetdiskFromThisPC.ps1 -Force
 ```
 
 如果提示执行策略限制，先执行：
